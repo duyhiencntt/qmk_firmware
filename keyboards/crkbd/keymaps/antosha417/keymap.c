@@ -228,14 +228,14 @@ void oled_render_layer_state(void) {
     switch (get_highest_layer(layer_state|default_layer_state)) {
       case _QWERTY:
         oled_write_ln_P(PSTR("qwerty"), false);
-        break
+        break;
       case _DVORAK:
         oled_write_ln_P(PSTR("dvorak"), false);
         break;
       case _LOWER:
         oled_write_ln_P(PSTR("lower"), false);
         break;
-      case_RAISE:
+      case _RAISE:
         oled_write_ln_P(PSTR("raise"), false);
         break;
       case _TOP:

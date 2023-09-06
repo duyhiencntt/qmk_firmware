@@ -86,8 +86,9 @@ led_config_t g_led_config = { {
 } };
 
 #endif
-
+/*
 #ifdef OLED_ENABLE
+
 void oled_render_logo(void) {
     static const char PROGMEM mb_logo[] = {
 0x00, 0x00, 0x00, 0x00, 0x00, 0xfe, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff,
@@ -128,3 +129,4 @@ void oled_render_logo(void) {
     //oled_write_P(PSTR("R2G"), false);
 }
 #endif
+*/
